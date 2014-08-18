@@ -12,7 +12,7 @@ recipe "rvm_passenger::nginx",    "Installs Passenger gem w/ RVM, and recompiles
 
 depends "rvm",      ">= 0.8.0"
 depends "nginx",    "~> 0.101.0"
-depends "apache2",  "~> 2.0.1"
+depends "apache2",  "~> 1.10.4"
 
 supports "ubuntu"
 supports "debian"
